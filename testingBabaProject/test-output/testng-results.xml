@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-11T18:21:32 IST" name="Default suite" finished-at="2022-02-11T18:21:42 IST" duration-ms="9506">
+    <groups>
+    </groups>
+    <test started-at="2022-02-11T18:21:32 IST" name="Default test" finished-at="2022-02-11T18:21:42 IST" duration-ms="9506">
+      <class name="testingBaba_Test.Login_Test">
+        <test-method is-config="true" signature="getLaunch()[pri:0, instance:testingBaba_Test.Login_Test@47d90b9e]" started-at="2022-02-11T18:21:32 IST" name="getLaunch" finished-at="2022-02-11T18:21:42 IST" duration-ms="9452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLaunch -->
+        <test-method signature="getTitle()[pri:0, instance:testingBaba_Test.Login_Test@47d90b9e]" started-at="2022-02-11T18:21:42 IST" name="getTitle" finished-at="2022-02-11T18:21:42 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+      </class> <!-- testingBaba_Test.Login_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
