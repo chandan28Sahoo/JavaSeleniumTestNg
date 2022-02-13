@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoSuite">
+<!-- <parameter name="browserName" value="firefox"/>  -->
+<parameter name="url" value="https://opensource-demo.orangehrmlive.com/"/>
+<parameter name="userName" value="Admin"/>
+<parameter name="password" value="admin123"/>
+	<test name="orangeHrmLogin" >
+	<parameter name="browserName" value="chrome"/>
+		<classes>
+			<class name="testNgBasics.OrangeHrmTest">
+				<methods>
+					<include name="launchApp" />
+					<include name="orangeHrmLogin" />
+					<include name="verifyLogin" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="OrangeHrmTestMyInfo" enabled="false">
+	<parameter name="browserName" value="firefox"/>
+		<classes>
+			<class name="testNgBasics.OrangeHrmTest">
+				<methods>
+					<include name="launchApp" />
+					<include name="orangeHrmLogin" />
+					<include name="navigateToMyINfo" />
+					<include name="verifyMyINfo" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="google test" enabled="false">
+		<classes>
+			<class name="testNgBasics.TestClass">
+				<methods>
+					<include name="testGoogle" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
